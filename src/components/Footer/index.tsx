@@ -19,18 +19,8 @@ interface SocialLinkProps {
 }
 
 const Footer = ({ t }: any) => {
-  const SocialLink = ({ href, src }: SocialLinkProps) => {
-    return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        key={src}
-        aria-label={src}
-      >
-        <SvgIcon src={src} width="25px" height="25px" />
-      </a>
-    );
+  const SocialLink = ({ src }: { src: string }) => {
+    return <SvgIcon src={src} width="25px" height="25px" />;
   };
   return (
     <>
@@ -69,17 +59,23 @@ const Footer = ({ t }: any) => {
                 />
               </LogoContainer>
             </NavLink>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-              }}
+            <a
+              href="https://wa.me/393400784160"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <SocialLink href="https://wa.me/3400784160" src="whatsapp.svg" />
-              <span style={{ marginLeft: "5px" }}>
-                Inviaci un messagio su Whatsapp
-              </span>
-            </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <SocialLink src="whatsapp.svg" />
+                <span style={{ marginLeft: "5px" }}>
+                  Inviaci un messagio su Whatsapp
+                </span>
+              </div>
+            </a>
           </Row>
         </Container>
       </Extra>
