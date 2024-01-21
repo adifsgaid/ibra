@@ -7,13 +7,32 @@ import {
   NavLink,
   Extra,
   LogoContainer,
+  FooterContainer,
   Para,
   Large,
   Chat,
   Language,
 } from "./styles";
 
+interface SocialLinkProps {
+  href: string;
+  src: string;
+}
+
 const Footer = ({ t }: any) => {
+  const SocialLink = ({ href, src }: SocialLinkProps) => {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        key={src}
+        aria-label={src}
+      >
+        <SvgIcon src={src} width="25px" height="25px" />
+      </a>
+    );
+  };
   return (
     <>
       <FooterSection>
@@ -51,6 +70,17 @@ const Footer = ({ t }: any) => {
                 />
               </LogoContainer>
             </NavLink>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <SocialLink href="https://wa.me/3400784160" src="whatsapp.svg" />
+              <span style={{ marginLeft: "5px" }}>
+                Inviaci un messagio su Whatsapp
+              </span>
+            </div>
           </Row>
         </Container>
       </Extra>
