@@ -4,7 +4,6 @@ import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 import {
   FooterSection,
-  Title,
   NavLink,
   Extra,
   LogoContainer,
