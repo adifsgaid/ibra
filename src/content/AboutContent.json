@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Servizi di installazione e manutenzione",
+  "text": "Offriamo una gamma completa di servizi per soddisfare le tue esigenze di installazione e manutenzione.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Impianti TV-SAT Automazione cancelli",
+      "content": "Forniamo servizi di installazione e manutenzione per impianti TV-SAT e sistemi di automazione per cancelli. Che tu abbia bisogno di un nuovo impianto o di manutenzione su un sistema esistente, siamo qui per aiutarti.",
+      "icon": "light_switch.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Impianti antifurto e videosorveglianza",
+      "content": "Offriamo soluzioni di sicurezza personalizzate, compresi impianti antifurto e sistemi di videosorveglianza. La nostra priorità è mantenere la tua proprietà sicura e protetta.",
+      "icon": "camera_secu.svg"
     }
   ]
 }

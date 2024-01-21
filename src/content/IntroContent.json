@@ -1,13 +1,4 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
-  "button": [
-    {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
-    }
-  ]
+  "title": "Impianti fotovoltaici",
+  "text": "Offriamo soluzioni per impianti fotovoltaici. Questi impianti utilizzano l'energia solare per generare elettricità, contribuendo a un futuro più sostenibile. Sia che tu stia cercando di ridurre le tue bollette energetiche o di fare la tua parte per l'ambiente, un impianto fotovoltaico può essere una soluzione eccellente."
 }
