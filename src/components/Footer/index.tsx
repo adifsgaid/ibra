@@ -7,7 +7,6 @@ import {
   NavLink,
   Extra,
   LogoContainer,
-  FooterContainer,
   Para,
   Large,
   Chat,
