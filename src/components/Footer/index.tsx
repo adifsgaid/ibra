@@ -13,11 +13,6 @@ import {
   Language,
 } from "./styles";
 
-interface SocialLinkProps {
-  href: string;
-  src: string;
-}
-
 const Footer = ({ t }: any) => {
   const SocialLink = ({ src }: { src: string }) => {
     return <SvgIcon src={src} width="25px" height="25px" />;
